@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela</title>
+    <style>
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            max-width: 700px;
+            position: relative;
+        }
+        td, th {
+            border: 1px solid black;
+        }
+        tr#t1, tr#t3 {
+            background-color: rgba(128, 128, 128, 0.514);
+        }
+        
+        td.l1:hover {
+            background-color: rgba(128, 128, 128, 0.747);
+            text-decoration: underline;
+        }
+        td.l2:hover {
+            background-color: rgba(180, 10, 10, 0.747);
+            text-decoration: underline;
+        }
+        td.l2, td.l2f {
+            text-align: right;
+        }
+        caption {
+            background-color: rgba(128, 128, 128, 0.589);
+            padding: 5px;
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            font-size: 1.5em;
+        }
+        tbody > tr:nth-last-child(2n) {
+            background-color: lightgray;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption><strong>População dos Estados</strong></caption>
+        <thead>
+            <tr id="t1">
+                <th class="l1t" scope="col">Estado</th>
+                <th class="l2t" scope="col">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="t2">
+                <td class="l1">São Paulo</td>
+                <td class="l2">1.900.000</td>
+            </tr>
+            <tr>
+                <td class="l1">Rio de Janeiro</td>
+                <td class="l2">1.600.000</td>
+            </tr>
+            <tr>
+                <td class="l1">Mina Gerais</td>
+                <td class="l2">560.000</td>
+            </tr>
+            <tr>
+                <td class="l1">Paraná</td>
+                <td class="l2">400.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr id="t3">
+                <th class="l1f" scope="row">Numero de habitantes</th>
+                <td class="l2f">4.460.000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam amet sequi ipsam officiis reprehenderit reiciendis voluptate recusandae corrupti dolorum cumque, autem saepe minima veniam ullam eum libero aut alias odit!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ex facere quibusdam dignissimos officia. Dolor fuga aut reiciendis earum asperiores eum, assumenda itaque quo libero, ut reprehenderit enim aliquam incidunt!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim atque sequi dicta ad. Laborum, aliquam aut! Ab autem, sunt expedita hic sequi odit enim fugiat beatae error, magni voluptate pariatur.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab harum quidem laboriosam repudiandae deserunt incidunt nihil est voluptates dicta saepe, iste aliquid laborum, temporibus nulla repellendus doloribus officia ipsum quibusdam.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste atque natus suscipit optio libero tempore laudantium quis. Ad sunt, tenetur fugit corporis illo veniam dolores tempora placeat error laboriosam dolor.</p>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis magnam exercitationem tempore vero dolore accusamus repellat quam possimus totam a autem saepe quaerat consequuntur iure fuga, numquam laborum deleniti. Atque!
+    </p>
+    <p>
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae soluta sunt, odio velit, et ad laboriosam, rerum debitis neque excepturi incidunt officiis inventore temporibus blanditiis accusantium laborum. Ipsa, accusantium nulla.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum unde quasi atque voluptate veniam molestias, dignissimos, quos nulla aspernatur dolor provident. Velit cumque laboriosam quod aspernatur veniam quasi voluptatibus neque!
+    </p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit laudantium molestiae iusto ad expedita consequatur commodi praesentium sunt est recusandae, porro tempora numquam deleniti illum odit dolorem ipsa nesciunt architecto? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores voluptatum eius at beatae? Iste ullam facilis nulla dolorum adipisci rerum cum eligendi laboriosam natus veniam. Harum rem molestias itaque omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt esse alias facere accusantium adipisci sunt distinctio nemo voluptas, iure eligendi consectetur, at voluptate iusto id eum doloremque ex modi natus!</p>
+</body>
+</html>
